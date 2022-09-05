@@ -73,8 +73,14 @@ article span {
     color: white;
     font-size: 8px;
     padding: 4px;
+    text-transform: capitalize;
 }
 
 article p {
     font-size: 10px;
+
+}
+
+article p:first-letter {
+    text-transform: uppercase;
 }
